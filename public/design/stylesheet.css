@@ -1,3 +1,4 @@
+/* https://coolors.co/1c2321-7d98a1-476c9b-3a8841-668f80 (color scheme) */
 /* contact form */
 input[type=text], select, textarea {
     width: 100%;
@@ -25,7 +26,7 @@ input[type=submit]:hover {
 
 .contact_container {
     border-radius: 5px;
-    background-color: #88BDBC;
+    background-color: #476C9B;
     padding: 20px;
 }
 /* end of contact form */
@@ -81,7 +82,7 @@ html,body {
     left: 0;
     bottom: 0;
     width: 100%;
-    background-color: #6e6658;
+    background-color: #1C2321;
     color: white;
     text-align: center;
  }
