@@ -1,0 +1,432 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="Stock market, real estate">
+    <meta name="description" content="Come invest with us">
+    <meta name="author" content="Maya Bello">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="design/stylesheet.css">
+    <link rel="shortcut icon" type="image/x-icon" href="favicon.ico" />
+    <title>Networks Of Wealth</title>
+
+    <style>
+            html,body {
+                margin:0;
+                padding:0;
+                background-color: #F1F2F2;
+            }
+        
+            .mainButton {
+                display: inline-block;
+                padding: 15px 25px;
+                font-size: 24px;
+                cursor: pointer;
+                text-align: center;
+                text-decoration: none;
+                outline: none;
+                color: #fff;
+                background-color: #6e6658;
+                border: none;
+                border-radius: 15px;
+            }
+        
+            /* meet the team */
+            html {
+                box-sizing: border-box;
+            }
+        
+            *,
+            *:before,
+            *:after {
+                box-sizing: inherit;
+            }
+        
+            .column {
+                float: left;
+                width: 33.3%;
+                margin-bottom: 16px;
+                padding: 0 8px;
+            }
+        
+            @media screen and (max-width: 650px) {
+                .column {
+                    width: 100%;
+                    display: block;
+                }
+            }
+        
+            .card {
+                box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+            }
+        
+            .container {
+                padding: 0 16px;
+            }
+        
+            .container::after,
+            .row::after {
+                content: "";
+                clear: both;
+                display: table;
+            }
+        
+            .title {
+                color: grey;
+            }
+        
+            /* end of meet the team */
+        
+            .button {
+                border: none;
+                outline: 0;
+                display: inline-block;
+                padding: 8px;
+                color: white;
+                background-color: #000;
+                text-align: center;
+                cursor: pointer;
+                width: 100%;
+            }
+        
+            .button:hover {
+                background-color: #555;
+            }
+        </style>
+</head>
+
+<body>
+    <div>
+        <header id="header" style="background-color: #315E5E;">
+            <!-- https://logomakr.com/2J8QRB -->
+            <img src="images/logo.png" alt="logo" width="280" height="150" title="logo">
+            <nav>
+                <div class="topnav" id="myTopnav" style="padding: 0px 10px 0px 0px;">
+                    <a href="#header" tabindex="1" style="color: white" title="Home" class="active">HOME</a>
+                    <a href="#about" tabindex="2" style="color: white" title="About">ABOUT</a>
+                    <a href="#bios" tabindex="3" style="color: white" title="Meet The Team">MEET THE TEAM</a>
+                    <a href="#contact" tabindex="4" style="color: white" title="Contact">CONTACT</a>
+                    <a href="#" class="icon" onclick="responsiveNavbar()"><img src="images/nav_bar.png" width="16" height="16" alt="navigation bar"></a>
+                </div>
+            </nav>
+            <br>
+            <br>
+            <br>
+            <div style=text-align:center>
+                <h1 style="color: white">The premier provider of multigenerational</h1>
+                <h1 style="color: white">wealth opportunities and financial education.</h1>
+                <form action="#contact">
+                    <button class="mainButton" style="background-color: #6e6658;" title="Get In Touch">GET IN TOUCH</button>
+                </form>
+                <br>
+                <br>
+                <br>
+            </div>
+        </header>
+    </div>
+
+    <h2 id="about" style="text-align:center; font-size: 56px;">About</h2>
+    <h2 style="text-align:center;padding: 0px 30px;">Networks of Wealth,
+        <span style="color: #6e6658">NOW</span>, Inc. develops
+        <span style="color: #6e6658">wealth</span> through strategic
+        <span style="color: #6e6658">investments</span> for our families. We have three main areas of business: </h2>
+    <h2 style="text-align:center; color:#315E5E; font-size: 35px;">Real estate
+        <img src="images/home-solid.svg" alt="real-estate" width="50" height="50" title="real-estate">
+    </h2>
+    <h2 style="text-align:center; color:#315E5E; font-size: 35px;">Business
+        <img src="images/building-solid.svg" alt="business" width="50" height="50" title="business">
+    </h2>
+    <h2 style="text-align:center; color:#315E5E; font-size: 35px;">Finance
+        <img src="images/money-bill-alt-solid.svg" alt="finance" width="50" height="50" title="finance">
+    </h2>
+
+    <main id="bios" style="text-align: center">
+        <h2 style="font-size: 50px;">Meet The Team</h2>
+        <!-- First Row -->
+        <div class="row">
+            <div class="column">
+                <div class="card">
+                    <img src="images/l60Hf.png" alt="Ed K. Cook" style="width:100%" title="Ed K. Cook">
+                    <div class="container">
+                        <h2>Ed K. Cook</h2>
+                        <p>Ed K. Cook professional career has been at the Federal Bureau of Prison as a Correctional Counselor.
+                            He serves as a Firearms Instructor for civilians and federal employees.</p>
+                        <p onclick="seeMoreText();"
+                            style="color: blue">Click "Contact" To Read More...</p>
+                        <p>example@example.com</p>
+                        <form action="#contact">
+                            <button class="button">Contact</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+
+            <div class="column">
+                <div class="card">
+                    <img src="images/l60Hf.png" alt="Al Darnell Jr." style="width:100%" title="Al Darnell Jr.">
+                    <div class="container">
+                        <h2>Al Darnell Jr.</h2>
+                        <p>Al Darnell Jr., MBA (BiG Al) hails from Huntsville, AL BiG Al is a serial entrepreneur having started,
+                            operated, purchased and sold several small businesses since 2002.</p>
+                        <p onclick="seeMoreText(this);" style="color: blue" id="otherAl">Click Me To Read More...</p>
+                        <div id="al" style="display:none;">He currently owns ADACI since 2009, that specializes in tax and financial strategy and operational
+                            system creation. He holds a Bachelor degree from Auburn University in Mechanical Engineering,
+                            an MBA, with a concentration in Finance, from Keller Graduate School of Management, and currently
+                            pursuing Ph.D. in International Business, at the International School of Management (ISM), Paris,
+                            France.</div>
+                        <p>example@example.com</p>
+                        <form action="https://www.linkedin.com/in/bigaldarnelljr/" target="_blank">
+                            <button class="button">Contact</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+
+            <div class="column">
+                <div class="card">
+                    <img src="images/l60Hf.png" alt="Yohance Harrison" style="width:100%" title="Yohance Harrison">
+                    <div class="container">
+                        <h2>Yohance Harrison</h2>
+                        <p>Yohance began his financial services career in 1999, he has worked at Bank of America and a RIA firm.
+                            He now owns a Money Script Wealth Management, LLC, an investment ...
+                            <p onclick="seeMoreTextYohance();"
+                                style="color: blue">Click Me To Read More...</p>
+                            <div id="yohance" style="display:none;">
+                                advisory firm. His mission is to improve the quality of life for my clients, their families, their businesses and the communities
+                                we all serve.  Yohance is an entrepreneur and loves to inspire others to be the best version
+                                of themselves.</div>
+                            <p>example@example.com</p>
+                            <form action="https://www.linkedin.com/in/yohanceharrison/" target="_blank">
+                                <button class="button">Contact</button>
+                            </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Second Row -->
+        <div class="row">
+            <div class="column">
+                <div class="card">
+                    <img src="images/l60Hf.png" alt="Andrea Hudnell" style="width:100%" title="Andrea Hudnell">
+                    <div class="container">
+                        <h2>Andrea Hudnell</h2>
+                        <p>Andrea Hudnell has a background in Soxialology with over 15 years in Telecommunication for over 15
+                            years building data networks and as technical support for specialized phone systems used on bank
+                            trading floors. For over 5 years Andrea has been investing in real estate, as well as managing
+                            property.  She has served as a consultant to various housing authorities performing home inspections for tenants,
+                            specializing in government assisted rental programs. She currently maintains a real-estate license
+                            in both California and Illinois. </p>
+                        <p>example@example.com</p>
+                        <form action="https://www.linkedin.com/in/andrea-hudnell-21b35974/" target="_blank">
+                            <button class="button">Contact</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+
+            <div class="column">
+                <div class="card">
+                    <img src="images/l60Hf.png" alt="Aaron Jenkins" style="width:100%" title="Aaron Jenkins">
+                    <div class="container">
+                        <h2>Aaron Jenkins</h2>
+                        <p>Aaron Jenkins has worked in the automobile industry for over 19 years, he moved quickly from sales
+                            consultant to sales manager, overseeing 30 employees, within the first six months. Aaron is currently
+                            an Auto Broker with Auto expert for Altura Credit union. He manages 7 branches in southern California.
+                            He is a certified electronic specialist with over 3 years of logistics and safety management.</p>
+                        <p>example@example.com</p>
+                        <form action="#contact">
+                            <button class="button">Contact</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+
+            <div class="column">
+                <div class="card">
+                    <img src="images/l60Hf.png" alt="Dorian Jenkins" style="width:100%" title="Dorian Jenkins">
+                    <div class="container">
+                        <h2>Dorian Jenkins</h2>
+                        <p>Mr. Dorian Jenkins is a dynamic energetic leader with over twenty-six years of Public and Affordable
+                            housing experience. Dorian currently serves as the Vice President of Program Management for Nan
+                            McKay and Associates; his team administers over 44,000 Housing Choice Voucher contracts, 2,800
+                            Public and affordable housing units and $600M in Housing Assistance Payments. Dorian is a proven
+                            leader, high performer and collaborator specializing in executive leadership of housing operations,
+                            strategic planning, organizational effectiveness, management, development and strategic planning.
+                            A visionary motivated by the challenge of building vibrant and successful communities. He is
+                            a skilled communicator, motivator and team builder. </p>
+                        <p>example@example.com</p>
+                        <form action="https://www.linkedin.com/in/dorian-jenkins-phm-vhm-a7810a1b/" target="_blank">
+                            <button class="button">Contact</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Third Row -->
+        <div class="row">
+            <div class="column">
+                <div class="card">
+                    <img src="images/l60Hf.png" alt="Chris Jones" style="width:100%" title="Chris Jones">
+                    <div class="container">
+                        <h2>Chris Jones</h2>
+                        <p>Chris Jones has over 19 years of technical experience with telephone and cable systems. He currently
+                            contracts his expertise to Frontier communications in Houston. He specializes in natural disaster
+                            prevention, installation and repair. He is a Los Angeles, CA and has a degree from Clark Atlanta
+                            University.  </p>
+                        <p>example@example.com</p>
+                        <form action="#contact">
+                            <button class="button">Contact</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+
+            <div class="column">
+                <div class="card">
+                    <img src="images/l60Hf.png" alt="Jack Johnson" style="width:100%" title="Jack Johnson">
+                    <div class="container">
+                        <h2>Jack Johnson</h2>
+                        <p>Jack Johnson is a diligent and passionate professional with a proven record of accomplishment in
+                            criminal justice, entrepreneurship, and business management.   Mr. Johnson majored in psychology,
+                            attending both National University and the University of Phoenix. He used his behavioral science
+                            skills to service juvenile offenders. He has over 14 year career as a peace officer with the
+                            Los Angeles County Probation Department.  In keeping with his entrepreneurial spirit, Mr. Johnson
+                            also launched a real estate career, using his expertise to provide home ownership counseling
+                            to home buyers and sellers. He is a fair housing advocate by providing affordable rental opportunities
+                            to California residents</p>
+                        <p>example@example.com</p>
+                        <form action="#contact">
+                            <button class="button">Contact</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <div class="column">
+                <div class="card">
+                    <img src="images/l60Hf.png" alt="Rashida Tinkshell" style="width:100%" title="Rashida Tinkshell">
+                    <div class="container">
+                        <h2>Rashida Tinkshell</h2>
+                        <p>Rashida Tinkshell is a dedicated and meticulous professional with a proven record of accomplishment
+                            in academia, criminal justice, and business functions. Ms. Tinkshell’s is an experienced educator
+                            with a career in criminal justice. She is a motivated entrepreneur and real estate professional.
+                            She also has successfully operated a production company, destination management company, and
+                            communications business. Ms. Tinkshell earned a Bachelor of Science degree in Psychology and
+                            Social Behavior from the University of California, Irvine. She also received a Master of Science
+                            in School Counseling from the University of La Verne. Additionally, she received a School Psychology
+                            Credential from Azusa Pacific University.</p>
+                        <p>example@example.com</p>
+                        <form action="https://www.linkedin.com/in/rashida-tinkshell-141963152/" target="_blank">
+                            <button class="button">Contact</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- last row -->
+        <div class="row">
+            <div class="column">
+                <div class="card">
+                    <img src="images/l60Hf.png" alt="Jene Wells" style="width:100%" title="Jene Wells">
+                    <div class="container">
+                        <h2>Jene Wells</h2>
+                        <p>Jene' DuSean Wells passion is safety and compliance. Jene held a successful career with Rapid Transit
+                            District, RTD/MTA, retiring after 24 years in charge of Safety and Compliance. He has been a
+                            small business owner for over 9 years. His diverse skills range from business management to commercial
+                            driving to working at USC. Jene' Wells is currently a partner in an up and coming corporation,
+                            Network Of Wealth  (N.O.W), in which he is lead of the Small Business and Franchise committee.</p>
+                        <p>example@example.com</p>
+                        <form action="https://www.linkedin.com/in/jene-wells-44320971/" target="_blank">
+                            <button class="button">Contact</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+
+            <div class="column">
+                <div class="card">
+                    <img src="images/l60Hf.png" alt="Ebonee Williams" style="width:100%" title="Ebonee Williams">
+                    <div class="container">
+                        <h2>Ebonee Williams</h2>
+                        <p>Ebonée Williams, Ph.D. takes pride in her ability to provide efficient solutions to complex problems.
+                            She is a professional coach. She serves as the Executive Director of the Gordon Engineering Leadership
+                            Center. She has over 20 years of collegiate teaching experience. Dr. Williams earned her B.S.
+                            and Ph.D. in Chemical Engineering from Brown University and the University of Washington, respectively.
+                            She also has a Masters in Industrial Business Management from the Lille Business School in France.
+                            She has a Professional Performance Coaching Certification.</p>
+                        <p>example@example.com</p>
+                        <form action="https://www.linkedin.com/in/ebonee-williams-3ba5492/" target="_blank">
+                            <button class="button">Contact</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <div class="column">
+                <div class="card">
+                    <img src="images/l60Hf.png" alt="Calvin Render" style="width:100%" title="Calbin Render">
+                    <div class="container">
+                        <h2>Calvin Render</h2>
+                        <p>I work for the County of Riverside in the information technology department as the User support Technician
+                            III/ System Administrator of the Executive Office.</p>
+                        <p>example@example.com</p>
+                        <form action="#contact">
+                            <button class="button">Contact</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <aside class="contact_container" style="color: white;">
+        <h2 id="contact" style="text-align: center; font-size: 50px;">Contact Us</h2>
+        <form action="https://formspree.io/networksofwealthbusiness@gmail.com" method="POST" target="_blank">
+            <label for="name">Name*<br><input type="text" placeholder="Your Full Name" name="name" required></label>
+            <br>
+            <label for="email">Email*<br><input type="text" placeholder="youremail@provider.com" name="email" required></label>
+            <br>
+            <label for="phone">Phone<br><input type="text" placeholder="Phone Number" name="phone"></label>
+            <br>
+            <label for="subject">How can we help?*<br><textarea id="subject" name="subject" placeholder="Please add as many details as possible." style="height:200px"></textarea></label>
+            <br>
+            <button class="mainButton">Submit</button>
+        </form>
+    </aside>
+
+    <br>
+    <br>
+    <br>
+    <br>
+    <noscript>
+        Please enable JavaScript for the best user experience! 
+    </noscript>
+    <footer class="footer">
+        <p>&copy; 2018 Copyright: Networks of Wealth, networksofwealthbusiness@gmail.com. All rights reserved.</p>
+    </footer>
+
+    <script>
+        function seeMoreText(theElement) {
+            console.log("This is the Element");
+            console.log(theElement);
+            alert(theElement);
+        }
+
+        function responsiveNavbar() {
+            var x = document.getElementById("myTopnav");
+            if (x.className === "topnav") {
+                x.className += " responsive";
+            } else {
+                x.className = "topnav";
+            }
+        }
+    </script>
+    <script rel="preload" src="expandBios.js" as="script"></script>
+
+
+</body>
+
+</html>
