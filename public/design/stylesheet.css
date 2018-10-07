@@ -46,7 +46,7 @@ nav a {
 
 .topnav .icon {
     display: none;
-  }
+}
   
   @media screen and (max-width: 600px) {
     .topnav a:not(:first-child) {display: none;}
@@ -69,6 +69,13 @@ nav a {
       text-align: left;
     }
   }
+
+  @media screen and (min-width: 600px) {
+    .logo {
+        display: none;
+    }
+  }
+  
 /* end of navugation bar */
 
 html,body {
@@ -86,3 +93,5 @@ html,body {
     color: white;
     text-align: center;
  }
+
+ 
